@@ -1,0 +1,25 @@
+{
+  "name": "API-Crawler-Example",
+  "version": "1.0.0",
+  "description": "An example to build a crawler by GitHub Action.",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up",
+    "build-up": "docker-compose up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pulipuli.chen@gmail.com@github.com/pulipulichen/API-Crawler-Example.git"
+  },
+  "keywords": [
+    "GitHub Action"
+  ],
+  "author": "Pulipuli Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/API-Crawler-Example/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/API-Crawler-Example#readme",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,54 @@
+name: Crawler
+on: 
+  push:
+  schedule:
+    - cron:  "0 2 * * *"
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      # ----------------------------------------------------------------
+      
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      # ----------------------------------------------------------------
+
+      - uses: satackey/action-docker-layer-caching@v0.0.11
+        # Ignore the failure of a step and avoid terminating the job.
+        continue-on-error: true
+
+      # ----------------------------------------------------------------
+
+      - name: Cache
+        id: cache
+        uses: actions/cache@v3
+        env:
+          cache-name: cache
+        with:
+          path: cache
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('cache/trigger.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      # ----------------------------------------------------------------
+
+      # - name: test
+      #   run: |
+      #     docker run hello-world
+
+      - name: main
+        run: |
+          echo `date` > cache/trigger.txt
+          docker-compose up --build
+
+      # ----------------------------------------------------------------
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: output # The folder the action should deploy.

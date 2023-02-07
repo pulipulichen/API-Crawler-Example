@@ -1,0 +1,11 @@
+# docker-Specify the compose version
+version: "3"
+
+services:
+  app:
+    build: .
+    tty: true
+    volumes: 
+      - ./app:/app/
+      - ./output:/output/
+      - ./cache:/cache/
