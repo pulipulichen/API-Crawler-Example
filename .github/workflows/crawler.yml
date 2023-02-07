@@ -41,9 +41,13 @@ jobs:
       #   run: |
       #     docker run hello-world
 
+      - name: Prepare Cache
+        run: |
+          mkdir -p cache
+          echo `date` > cache/trigger.txt
+
       - name: main
         run: |
-          echo `date` > cache/trigger.txt
           docker-compose up --build
 
       # ----------------------------------------------------------------
