@@ -37,10 +37,6 @@ jobs:
 
       # ----------------------------------------------------------------
 
-      # - name: test
-      #   run: |
-      #     docker run hello-world
-
       - name: Prepare Cache
         run: |
           mkdir -p cache
