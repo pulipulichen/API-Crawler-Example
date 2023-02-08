@@ -1,4 +1,5 @@
 [
+  "調整發文的排程 / Publish Frequency Rescheduling Announcement",
   "把Android當做Chromecast用：CastReceiver / CastReceiver: Let your Android Device as a Chromecast",
   "修復Linux顯示裝置 / Fixing the Display Problem in Linux",
   "定時電源插座 / Plug Timer Socket",
@@ -10,6 +11,5 @@
   "被人遺忘的Filesystem API / HTML5 Filesystem API",
   "JavaScript新推出的Maps資料類型 / New JavaScript Data Type: Map",
   "動態轉換PWA / Convert a Website to PWA dynamically",
-  "如何產生網頁無障礙友善的顏色組合？ / Accessible color palette generator",
-  "繼續挑戰自動轉發到Pinterest / Try to forward RSS to Pinterest Again"
+  "如何產生網頁無障礙友善的顏色組合？ / Accessible color palette generator"
 ]
