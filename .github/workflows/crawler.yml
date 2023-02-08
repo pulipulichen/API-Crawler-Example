@@ -2,7 +2,7 @@ name: Crawler
 on: 
   push:
   schedule:
-    - cron:  "0 2 * * *"
+    - cron:  "0 18 * * *" # 要用臺灣時間減8小時
 permissions:
   contents: write
 jobs:
