@@ -1,4 +1,5 @@
 [
+  "在Ubuntu 22.04安裝NVIDIA顯示卡 / Installing a NVIDIA Graphics Card in Ubuntu 22.04",
   "多視窗管理的排版 / Layouts for Multi Windows",
   "KDE的多重螢幕 / Multi Screen in KDE",
   "無線滑鼠的電池 / Choosing a Battery for Wireless Mouse",
@@ -10,6 +11,5 @@
   "定時電源插座 / Plug Timer Socket",
   "分割螢幕監視器加上KVM / Quad Multi-Viewer with KVM",
   "行動基地臺的可連線裝置數量限制 / The Client Device Number Limitation of Access Points",
-  "用腳本設定Windows的熱點分享 / Enable Windows' Mobile Hotspot by through Script",
-  "如何提高Windows行動熱點允許的裝置數量？ / How to Increase the Device Number Limitation in Mobile Hotspot?"
+  "用腳本設定Windows的熱點分享 / Enable Windows' Mobile Hotspot by through Script"
 ]
