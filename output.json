@@ -1,4 +1,5 @@
 [
+  "雲端硬碟的客戶端 / The Client Tool of Cloud Drives",
   "插頭與插座的方向 / The Direction of Plugs and Sockets",
   "Nextcloud的安裝 / Nextcloud Installation",
   "家用伺服器最佳選擇：Home Assistant / Best Server for Your Home: Home Assistant",
@@ -10,6 +11,5 @@
   "用GitHub Actions的Windows虛擬機器來編譯AutoIT / Compile AutoIT on the Windows Runer in GitHub Actions",
   "使用GitHub做定期爬蟲、保存與提供資料 / Building a Scheduled Crawler and Storing as Accessible Data by GitHub Action and Pages",
   "GitHub改用Personal Access Token登入 / Using GitHub with Personal Access Token Instead of Password",
-  "關鍵字萃取的API：APILayer / APILayer: Keyword Extraction API",
-  "在KDE中讓視窗固定顯示在每個虛擬桌面 / Keep Display the Window on All Virtual Desktop in KDE"
+  "關鍵字萃取的API：APILayer / APILayer: Keyword Extraction API"
 ]
