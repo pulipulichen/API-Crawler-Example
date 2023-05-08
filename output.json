@@ -1,4 +1,5 @@
 [
+  "Docker的rootless模式特別麻煩 / Take More Careful When You Running Docker in Rootless Mode",
   "Ubuntu就是連不上192.168.0.1的路由器 / Ubuntu Just Can’t Connect to the Router With Ip 192.168.0.1",
   "解決「/dev/serial/by-id/」找不到USB裝置的問題 / How to display the USB dongle under \"/dev/serial/by-id/\"?",
   "Home Assistant加智慧插座幫電鍋省電 / Save Power with Smart Socket and Home Assistant",
@@ -10,6 +11,5 @@
   "白色背景變透明，但是保留物件的白色 / Remove White Background but Keep the White Color on the Object",
   "全站式雙向資料綁定MVC框架：DerbyJS / Full-stack MVC Framework: DerbyJS",
   "在GitHub Actions的工作流加入時間變數 / Formatted Time Variables in the Workflow of GitHub Actions",
-  "修復踏步機無法計數的問題 / Fixing the Counter of Stepper",
-  "用GitHub Actions的Windows虛擬機器來編譯AutoIT / Compile AutoIT on the Windows Runer in GitHub Actions"
+  "修復踏步機無法計數的問題 / Fixing the Counter of Stepper"
 ]
