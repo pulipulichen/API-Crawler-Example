@@ -1,4 +1,5 @@
 [
+  "Stable Diffusion的畫外畫功能 / Out Paint in Stable Diffusion",
   "在Ubuntu安裝Stable Diffusion Web UI / Install Stable Diffusion Web UI in Ubuntu",
   "解釋性文字探勘 / Explainable Text Mining",
   "Docker的rootless模式特別麻煩 / Take More Careful When You Running Docker in Rootless Mode",
@@ -10,6 +11,5 @@
   "Nextcloud的安裝 / Nextcloud Installation",
   "家用伺服器最佳選擇：Home Assistant / Best Server for Your Home: Home Assistant",
   "在LibreOffice插入Google Slide繪製的向量圖片 / Insert the Vector Image from Google Slide into a  Document",
-  "白色背景變透明，但是保留物件的白色 / Remove White Background but Keep the White Color on the Object",
-  "全站式雙向資料綁定MVC框架：DerbyJS / Full-stack MVC Framework: DerbyJS"
+  "白色背景變透明，但是保留物件的白色 / Remove White Background but Keep the White Color on the Object"
 ]
