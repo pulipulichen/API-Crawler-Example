@@ -1,4 +1,5 @@
 [
+  "如何讓其他人也能用rclone掛載的資料夾？ / How to Let Other Users to Access the Directory Which Is Mounted by Rclone?",
   "如何用CSS幫有透明背景的圖片加上白邊？ / How to Add White Borders to Images With Transparent Parts via CSS?",
   "如何修改TrustedHTML政策限制的DOM？ / How to Modify DOM Blocked by Trustedhtml Policy?",
   "母親節快樂~ Stable Diffusion Latent Couple練習 / Happy Mother's Day & Practice to Stable Diffusion Latent Couple",
@@ -10,6 +11,5 @@
   "解決「/dev/serial/by-id/」找不到USB裝置的問題 / How to display the USB dongle under \"/dev/serial/by-id/\"?",
   "Home Assistant加智慧插座幫電鍋省電 / Save Power with Smart Socket and Home Assistant",
   "雲端硬碟的客戶端 / The Client Tool of Cloud Drives",
-  "插頭與插座的方向 / The Direction of Plugs and Sockets",
-  "Nextcloud的安裝 / Nextcloud Installation"
+  "插頭與插座的方向 / The Direction of Plugs and Sockets"
 ]
