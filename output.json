@@ -1,4 +1,5 @@
 [
+  "測試20230527-1325",
   "使用Docker版本的Zigbee2MQTT控制Zigbee裝置 / Connect Zigbee Devices with Zigbee2MQTT Docker version",
   "手動打造Google Drive同步工具：ownCloud與rclone的組合 / Build a File Sync Tool for Google Drive: ownCloud + rclone",
   "帶AC插座的USB旅行充電器 / USB Travel Chargers With AC Sockets",
@@ -10,6 +11,5 @@
   "在Ubuntu安裝Stable Diffusion Web UI / Install Stable Diffusion Web UI in Ubuntu",
   "解釋性文字探勘 / Explainable Text Mining",
   "Docker的rootless模式特別麻煩 / Take More Careful When You Running Docker in Rootless Mode",
-  "Ubuntu就是連不上192.168.0.1的路由器 / Ubuntu Just Can’t Connect to the Router With Ip 192.168.0.1",
-  "解決「/dev/serial/by-id/」找不到USB裝置的問題 / How to display the USB dongle under \"/dev/serial/by-id/\"?"
+  "Ubuntu就是連不上192.168.0.1的路由器 / Ubuntu Just Can’t Connect to the Router With Ip 192.168.0.1"
 ]
