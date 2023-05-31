@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  "0 18 * * *" # 要用臺灣時間減8小時
+    - cron:  "0 18 * * *" # 要用臺灣時間減8小時。例如如果要在臺灣的半夜4點執行，則需要設為 "0 20 * * *"
 permissions:
   contents: write
 jobs:
@@ -29,19 +29,16 @@ jobs:
         env:
           cache-name: cache
         with:
-          path: cache
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('cache/trigger.txt') }}
+          path: |
+            cache
+            output
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.run_id }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
       # ----------------------------------------------------------------
-
-      - name: Prepare Cache
-        run: |
-          mkdir -p cache
-          echo `date` > cache/trigger.txt
 
       - name: main
         run: |
